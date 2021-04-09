@@ -18,5 +18,6 @@ document.getElementById('calcBtn').addEventListener('click', function () {
         monthlyPayment = _calculateMonthlyPaym.monthlyPayment,
         monthlyRate = _calculateMonthlyPaym.monthlyRate;
 
+    document.getElementById("monthlyPayment").innerHTML = monthlyPayment.toFixed(2);
     document.getElementById("monthlyRate").innerHTML = (monthlyRate * 100).toFixed(2);
 });
