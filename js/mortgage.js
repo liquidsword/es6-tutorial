@@ -9,7 +9,7 @@ export let calculateMonthlyPayment = (principal, years, rate) => {
 };
     
 export let calculateAmortization = (principal, years, rate) => {
-    let {monthlyRate, monthlyPayment} = calculateMonthlyPayment(principal, years, rate);
+    let {monthlyRate, monthlyPayment, amortization} = mortgage.calculateAmortization(principal, years, rate);
     let balance = principal;
     let amortization = [];
     for (let y=0; y<years; y++) {
