@@ -24,6 +24,7 @@
     "babel-loader": "^8.2.2",
     "babel-preset-es2015": "^6.24.1",
     "http-server": "^0.12.3",
-    "webpack": "^5.31.2"
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
   }
 }
