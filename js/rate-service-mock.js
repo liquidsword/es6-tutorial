@@ -10,3 +10,11 @@ let rates = [
         "years": "20"
     }
 ];
+
+export let findAll = () => new Promise((resolve, reject) => {
+    if (rates) {
+        resolve(rates);
+    } else {
+        reject("No rates");
+    }
+});
